@@ -1,0 +1,887 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #6f6f6f;
+    font-size: 14px;
+}
+
+
+/*Animated CSS Start*/
+.delay-1 {
+    animation-delay: 200ms;
+}
+
+.delay-2 {
+    animation-delay: 400ms;
+}
+
+.delay-3 {
+    animation-delay: 600ms;
+}
+
+.delay-4 {
+    animation-delay: 800ms;
+}
+
+.delay-5 {
+    animation-delay: 1s;
+}
+
+/*Animated CSS End*/
+
+
+/*Carousel CSS Start*/
+
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev {
+    width: 5%;
+}
+
+/*Carousel CSS End*/
+
+
+
+
+/*Header CSS Start*/
+header {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar {
+    padding: 15px 0px
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.nav-item {}
+
+.nav-link {
+    color: #232323;
+    padding-left: 25px;
+    padding: 10px;
+    transition: all .3s;
+
+
+}
+
+.nav-link:hover {
+    color: #7c7875;
+}
+
+.search-icon {
+    border-left: 2px solid black;
+    padding-left: 25px;
+
+}
+
+.nav-icon {
+    font-size: 15px;
+}
+
+/*Header CSS End*/
+
+/*Banner CSS Start*/
+
+.carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: black;
+    background-clip: padding-box;
+}
+
+.slider-content {
+    height: 100vh;
+}
+
+.banner-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #232323;
+}
+
+.banner-content p {
+    margin: 30px 0px;
+    font-size: 18px;
+    color: #232323;
+
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button-01 {
+    background: #232323;
+    border: 2px solid #232323;
+
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+.button-01:hover {
+    border: 2px solid #232323;
+    background: transparent;
+    color: #232323;
+}
+
+.button-02 {
+    border: 2px solid #232323;
+    color: #232323;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.button-02:hover {
+    background: #232323;
+    border: 2px solid #232323;
+    color: white;
+}
+
+/*Banner CSS End*/
+
+
+
+/*Work Section CSS Strat*/
+
+.work-area {
+    padding: 130px 0px;
+}
+
+.work-content {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.work-title {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 3px;
+
+}
+
+.work-content h1 {
+    color: #ff214f;
+    font-size: 48px;
+    font-weight: 500;
+    float: left;
+    padding-right: 20px;
+}
+
+.work-content p span {
+    font-size: 18px;
+    color: #232323;
+    font-weight: 500;
+    line-height: 22px;
+
+
+}
+
+.work-content p {
+    color: #6f6f6f;
+}
+
+/*Work Section CSS End*/
+
+
+
+/*Service CSS Start*/
+.service-area {
+    background: #F7F7F7;
+}
+
+.image {
+    padding: 0;
+}
+
+.image img {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-content {
+    padding: 70px 0px;
+
+
+}
+
+.service-content i {
+    float: left;
+    color: #979797;
+    font-size: 30px;
+    padding-left: 35px;
+}
+
+.service-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #232323;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.service-text {
+    padding-left: 73px;
+}
+
+.service-content h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #232323;
+    padding: 0px 20px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.service-content p {
+    padding: 0px 20px;
+
+}
+
+/*Service CSS End*/
+
+
+
+/*Counter CSS Start*/
+
+.counter-area {
+    padding: 130px 0px;
+
+}
+
+.counter-content {
+    border: 1px solid #EDEDED;
+    padding: 30px 0px;
+    transition-timing-function: ease-in-out;
+    transition: .2s all;
+
+}
+
+.counter-content:hover {
+    outline: 5px solid #ff214f;
+
+
+}
+
+.counter-content i {
+    font-size: 50px;
+    color: #AAAAAA;
+    margin-bottom: 10px;
+}
+
+.counter-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #232323;
+}
+
+/*Counter CSS End*/
+
+
+/*Portfolio CSS Start*/
+
+.portfolio-area {
+    padding: 130px 0px;
+    background: #F7F7F7;
+
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title p {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #939393;
+}
+
+.title h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #232323;
+}
+
+.heading h1 {
+    margin-bottom: 80px;
+}
+
+.portfolio-items {
+    margin-bottom: 30px;
+    border: none;
+}
+
+.portfolio-img {
+    position: relative;
+}
+
+.overly::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 33, 79, 0.80);
+    opacity: 0;
+    transition: all .3s cubic-bezier(0.4, 0, 1, 1) 0s;
+
+
+
+}
+
+.portfolio-img:hover .overly::before {
+    opacity: 1;
+}
+
+.icon-link {
+    display: none;
+    border: 2px solid white;
+    color: black;
+    font-size: 20px;
+    background: white;
+    width: 50px;
+    padding: 9px 13px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.icon-link:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+.portfolio-img:hover .icon-link {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    transition: all .2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.icon-search {
+    display: none;
+    border: 2px solid white;
+    color: black;
+    font-size: 20px;
+    background: white;
+    width: 50px;
+    padding: 9px 13px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.icon-search:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+
+}
+
+.portfolio-img:hover .icon-search {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transition: all .3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.card-body {
+    text-transform: uppercase;
+}
+
+.card-body h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #232323;
+    transition: .4s;
+    margin-bottom: .0.2rem;
+}
+
+.portfolio-content h6:hover {
+    color: #ff214f;
+}
+
+.portfolio-content p {
+    font-size: 11px;
+}
+
+/*Portfolio CSS End*/
+
+
+
+/*Feature CSS Start*/
+
+.feature-grid {
+    padding: 0;
+}
+
+.features {
+    padding: 40px 40px;
+    border-radius: unset;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.feature-content i {
+    font-size: 50px;
+    color: #ff214f;
+    margin-bottom: 30px;
+}
+
+.feature-content h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #232323;
+    text-transform: none;
+
+}
+
+.feature-content p {
+    text-transform: none;
+}
+
+/*Feature CSS End*/
+
+
+
+/*Choose Us CSS Start*/
+
+.chooseus-area {
+    padding: 130px 0px;
+}
+
+.chooseus-area p {
+    margin-top: 20px;
+}
+
+.chooseus-area img {
+    width: 100%;
+}
+
+/*Choose Us CSS End*/
+
+
+/*Video Area CSS Start*/
+
+.video-area {
+    padding: 130px 0px;
+    background: #1C1C1C;
+}
+
+.video-thumbnail {
+    position: relative;
+}
+
+.video-thumbnail img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-icon img {
+    width: 142px;
+    transition-timing-function: ease-in-out;
+    transition: .2s all;
+}
+
+.video-icon img:hover {
+    width: 160px;
+}
+
+.video-content {
+    margin-left: 80px;
+
+}
+
+.video-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.video-content h4 {
+    font-size: 20px;
+    color: #b7b7b7;
+    padding: 10px 0px;
+}
+
+.video-content p {
+    margin-bottom: 30px
+}
+
+.button-03 {
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.button-03:hover {
+    background: white;
+    border: 2px solid #232323;
+    color: #1C1C1C;
+}
+
+/*Video Area CSS End*/
+
+
+/*Testimonial CSS Strat*/
+.testimonial-area {
+    padding: 130px 0px;
+    background: #F7F7F7;
+
+}
+
+.testimonial {
+    padding: 45px 24px;
+    margin-top: 80px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    background: white;
+
+
+}
+
+.testimonial img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.testimonial-content p {
+    text-transform: none;
+}
+
+.testimonial-content h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+
+}
+
+.testimonial-content span p {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/*Testimonial CSS End*/
+
+
+/*Blog CSS Start*/
+
+.blog-area {
+    padding: 130px 0px;
+
+}
+
+.blog-grid {
+    margin-top: 80px;
+
+}
+
+.blog-content {
+    padding: 40px 30px 28px;
+    background: #F7F7F7;
+}
+
+.blog {
+    position: relative;
+}
+
+.blog-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all .2s cubic-bezier(0.4, 0, 1, 1) 0s;
+
+}
+
+.blog:hover .blog-img::before {
+    opacity: 1;
+}
+
+.icofont-plus {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .2s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.blog:hover .icofont-plus {
+    opacity: 1;
+}
+
+.blog-content h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #232323;
+    text-transform: none;
+
+}
+
+.blog-content h5:hover {
+    color: #ff214f;
+    transition-timing-function: ease-in-out;
+    transition: .4s;
+}
+
+.blog-content p {
+    text-transform: none;
+}
+
+
+.blog-small {
+    font-size: 11px;
+}
+
+.blog-small p {
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+.blog-small p span {
+    border-right: 1px solid #939393;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 12px 0px 0px;
+    transition: .3s;
+}
+
+.blog-small p span:hover {
+    color: #ff214f;
+
+}
+
+/*Blog CSS End*/
+
+
+
+/*Footer CSS Start*/
+
+.footer-area {
+    background: #1C1C1C;
+    padding: 80px 0px;
+
+
+}
+
+.footer-area p {
+    font-size: 12px;
+}
+
+.footer-logo-border {
+    border-right: 1px solid #363636;
+
+}
+
+.footer-logo-content {}
+
+.footer-logo-content p {
+    margin: 20px 0px;
+
+}
+
+.social-icons {
+    font-size: 18px;
+    color: white;
+}
+
+.social-icons i {
+    margin-right: 10px;
+    transition: .4s;
+}
+
+.social-icons i:hover {
+    color: #ff214f;
+
+}
+
+.additional-links-border {
+    border-right: 1px solid #363636;
+    padding: 0px 20px;
+}
+
+.additional-links {}
+
+.additional-links h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+
+}
+
+.additional-links p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+
+
+
+
+}
+
+.contact-info-border {
+    border-right: 1px solid #363636;
+    margin-left: -15px;
+}
+
+.contact-info {
+    margin-left: 20px;
+}
+
+.contact-info h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+}
+
+.contact-info p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.contact-info span p {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #6f6f6f;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 12px;
+    transition: .4s;
+
+
+}
+
+.contact-info a:hover {
+    color: #ff214f;
+    text-decoration: none;
+}
+
+.insta-border {
+    margin-left: 15px;
+}
+
+.instagram-image {}
+
+
+.insta-content {
+    padding: 0;
+}
+
+.instagram-image h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.instagram-image img {
+    padding: 4px;
+    width: 30%;
+}
+
+.footer-end {
+    font-size: 12px;
+    background: #141414;
+    padding: 40px 0px;
+
+}
+
+.footer-end p {
+    margin-bottom: 0px;
+
+}
+
+.footer-end span {
+    transition: .4s;
+
+}
+
+.footerend-content-01 span:hover {
+    color: #ff214f;
+
+
+}
+
+.footerend-content-02 p {
+    margin: 0px 10px;
+    transition: .4s;
+}
+
+.footerend-content-02 p:hover {
+    color: #ff214f;
+}
+
+/*Footer CSS End*/
